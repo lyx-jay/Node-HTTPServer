@@ -1,9 +1,11 @@
 const statusMap = {
-  500: "Internal Server Error",
-  201: "Created",
-  403: "Forbidden",
   200: "OK",
-  404: "NOT FOUND"
+  201: "Created",
+  304: "Not Modified",
+  401: "Unauthorized",
+  403: "Forbidden",
+  404: "NOT FOUND",
+  500: "Internal Server Error",
 }
 
 module.exports = (message) => {
