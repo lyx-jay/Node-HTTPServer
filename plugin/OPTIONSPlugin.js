@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const helper = require('./helper');
+const helper = require('../helper');
 
 module.exports = (message, env) => {
   // 如果status不为0，表示服务器已经做出响应，那么可以直接返回（response已经产生了）

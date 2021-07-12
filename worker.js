@@ -1,13 +1,14 @@
 const RequestParser  = require('./RequestParser');
 const makeResponse = require('./makeResponse');
-const POSTPlugin = require('./POSTPlugin');
-const GETPlugin = require('./GETPlugin');
-const PUTPlugin = require('./PUTPlugin');
-const DELETEPlugin = require('./DELETEPlugin');
-const AUTHPlugin = require('./AUTHPlugin');
-const CORSPlugin = require('./CORSPlugin');
-const OPTIONSPlugin = require('./OPTIONSPlugin');
-const CACHEPlugin = require('./CACHEPlugin');
+
+const POSTPlugin = require('./plugin/POSTPlugin');
+const GETPlugin = require('./plugin/GETPlugin');
+const PUTPlugin = require('./plugin/PUTPlugin');
+const DELETEPlugin = require('./plugin/DELETEPlugin');
+const AUTHPlugin = require('./plugin/AUTHPlugin');
+const CORSPlugin = require('./plugin/CORSPlugin');
+const OPTIONSPlugin = require('./plugin/OPTIONSPlugin');
+const CACHEPlugin = require('./plugin/CACHEPlugin');
 
 
 const path = require('path');

@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const helper = require('./helper');
+const helper = require('../helper');
 
 module.exports = (message, env) => {
 
